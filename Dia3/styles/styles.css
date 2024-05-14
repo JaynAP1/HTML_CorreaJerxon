@@ -1,0 +1,68 @@
+body{
+    background-color: gray;
+}
+.Contenedor{
+    position: relative;
+    margin: auto;
+    width: 1400px;
+    height: 800px;
+    background-color: #FFFFFF;
+    top: 140px;
+}
+.Linea{
+    border: 1px solid black;
+    position: relative;
+    height: 800px;
+    width: 110px;
+    background-color: #212020;
+    left: 1290px;
+    bottom: 600px;
+}
+.Contenido{
+    position: relative;
+    height: 100px;
+    width: 1400px;
+    top: 43px;
+    left: 43px;
+}
+.Contenido .uno{
+    font-size: 30px;
+    position: relative;
+    left: 743px;
+    bottom: 70px;
+}
+.Contenido .dos{
+    font-size: 30px;
+    position: relative;
+    left: 972px;
+    bottom: 125px;
+}
+.Contenido img{
+    height: 44px;
+    width: 196px;
+}
+.Contenido .Busqueda{
+    position: relative;
+    left: 1100px;
+    bottom: 200px;
+}
+.Cuadrito{
+    position: relative;
+    bottom: 800px;
+    left: 1100px;
+    width: 160px;
+    height: 114px;
+    background-color: #D5FF43;
+    border-radius: 20px;
+}
+.Cuadrito img{
+    position: relative;
+    top: 20px;
+    width: 129px;
+    height: 29px;
+}
+.Tarjeta{
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
