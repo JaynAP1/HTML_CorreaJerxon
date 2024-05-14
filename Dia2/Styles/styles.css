@@ -2,14 +2,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: #FFE3B3;
+    cursor: default;
 }
 .CajaG{
     width: 850px;
-    height: 1000px;
+    height: 1050px;
     margin: auto;
-    margin-top: 50px;
-    border: 1px solid black;
-    background-color: #FFC872
+    margin-top: 70px;
+    background-color: #FFC872;
+    box-shadow: 2px 0px 20px black;
 }
 .CajaG .Imagen img{
     position: relative;
@@ -18,35 +19,65 @@ body{
     border-radius: 50%;
     width: 200px;
     border: 1px solid black;
+    transition: all 300ms;
+}
+@keyframes Animacion{
+    0%{
+        border-color: #FFC872;
+    }
+    50%{
+        border-color: white;
+    }
+    100%{
+        border-color:#FFC872;
+    }
+}
+.CajaG .Imagen img:hover{
+    transform: scale(1.2);
+    z-index: 2;
+    border: 5px solid;
+    animation: Animacion 2s infinite;
 }
 .CajaG .InformacionP{
     position: relative;
     margin-top: 20px;
     margin-left: 20px;
     text-align: center;
-    border: 1px solid black;
     height: 400px;
     width: 250px;
     background-color: #7ACE67;
     transition: all 300ms;
+    box-shadow: 1px 0px 20px black;
+}
+.CajaG .InformacionP h1{
+    position: relative;
+    top: 20px;
+}
+.CajaG .InformacionP .ContenidoP{
+    position: relative;
+    top: 40px;
 }
 .CajaG .InformacionP:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
+    border: 5px solid white;
+    z-index: 2;
     background-color: #31b189;
 }
-.CajaG .Diploma{
+
+.CajaG .Diploma img{
     position: relative;
     margin-top: 20px;
     margin-left: 20px;
-    text-align: center;
-    border: 1px solid black;
     width: 250px;
     height: 300px;
     background-color: #7ACE67;
     transition: all 300ms;
+    box-shadow: 1px 0px 20px black;
 }
-.CajaG .Diploma:hover{
-    transform: scale(1.1);
+.CajaG .Diploma img:hover{
+    transform: scale(1.2);
+    border: 5px solid white;
+    z-index: 2;
     background-color: #31b189;
 }
 .CajaG .InformacionA{
@@ -54,14 +85,24 @@ body{
     position: relative;
     left: 300px;
     bottom: 977px;
-    border: 1px solid black;
     width: 250px;
     height: 750px;
     background-color: #7ACE67;
     transition: all 300ms;
+    box-shadow: 1px 0px 20px black;
+}
+.CajaG .InformacionA h1{
+    position: relative;
+    top: 20px;
+}
+.CajaG .InformacionA .ContenidoA{
+    position: relative;
+    top: 20px;
 }
 .CajaG .InformacionA:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
+    z-index: 2;
+    border: 5px solid white;
     background-color: #31b189;
 }
 .CajaG .Habilidades{
@@ -69,28 +110,36 @@ body{
     position: relative;
     left: 300px;
     bottom: 980px;
-    border: 1px solid black;
     width: 250px;
     background-color: #7ACE67;
     transition: all 300ms;
+    box-shadow: 1px 0px 20px black;
 }
 .CajaG .Habilidades:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
+    border: 5px solid white;
+    z-index: 2;
     background-color: #31b189;
 }
 .CajaG .Proyectos{
     position: relative;
     left: 580px;
-    bottom: 1953px;
+    bottom: 1968px;
     text-align: center;
-    border: 1px solid black;
     width: 250px;
-    height: 955px;
+    height: 935px;
     background-color: #7ACE67;
     transition: all 300ms;
+    box-shadow: 1px 0px 20px black;
+}
+.CajaG .Proyectos .ProyectosP{
+    position: relative;
+    top: 20px;
 }
 .CajaG .Proyectos:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
+    border: 5px solid white;
+    z-index: 2;
     background-color: #31b189;
 }
 .CajaG .Proyectos .ProyectosE{
