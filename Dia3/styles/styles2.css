@@ -21,7 +21,7 @@ body{
     width: 110px;
     background-color: #212020;
     left: 1290px;
-    bottom: 601px;
+    bottom: 427px;
 }
 .Linea .uno{
     position: relative;
@@ -59,29 +59,30 @@ body{
 .Contenido .uno{
     font-size: 30px;
     position: relative;
-    left: 733px;
-    bottom: 86px;
+    left: 533px;
+    bottom: 26px;
     color: black;
+    text-decoration: none;
 }
 .Contenido .dos{
     font-size: 30px;
     position: relative;
     left: 972px;
-    bottom: 155px;
+    bottom: 95px;
     color: black;
-    text-decoration: none;
+    
 }
 .Contenido .Busqueda{
     position: relative;
-    left: 980px;
-    bottom: 150px;
+    left: 1100px;
+    bottom: 155px;
     width: 27px;
     height: 27px;
 }
 .Contenido .Compra{
     position: relative;
-    left: 1030px;
-    bottom: 150px;
+    left: 1150px;
+    bottom: 155px;
     width: 27px;
     height: 27px;
 }
@@ -92,12 +93,12 @@ body{
 .Contenido h1{
     position: relative;
     font-weight: bold;
-    left: 754px;
+    left: 974px;
     bottom: 200px;
 }
 .Cuadrito{
     position: relative;
-    bottom: 800px;
+    bottom: 580px;
     left: 1100px;
     width: 160px;
     height: 114px;
@@ -121,23 +122,29 @@ body{
     left: 30px;
     font-weight: bold;
 }
-.Comprador{
+.saldo{
     position: relative;
     bottom: 900px;
-    left: 58px;
+    text-align: center;
 }
-.Comprador h2{
+.saldo h1{
     font-size: 40px;
-    font-weight: bold;
-    position: relative;
-    bottom: 5px;
 }
-.Comprador p{
+.saldo p{
     font-size: 27px;
-    position: relative;
-    bottom: 39px;
+    font-weight: bold;
+}
+.saldo .Entrada{
+    border-radius: 10px;
+    width: 288px;
+    height: 58px;
+    text-align: center;
+    font-size: 30px;
+    border: 0.5px solid gray;
 }
 .Tarjeta{
     position: relative;
-    left: 100px;
+    left: 435px;
+    height: 320px;
+    width: 530px;
 }
