@@ -1,8 +1,9 @@
 @font-face {
     font-family: "Mifuente";
-    src: url("font/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/Amazon-Ember-Medium.ttf");
+    src: url("font/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/AmazonEmber_Th.ttf");
 }
 body{
+    cursor:default;
     font-family: "Mifuente";
     background-color: black;
 }
@@ -10,8 +11,9 @@ body{
     margin: auto;
     margin-top: 10px;
     background-color: black;
-    height: 1080px;
+    height: 4390px;
     width: 1920px;
+    overflow: hidden;
 }
 .pantalla .background img{
     width: 100%;
@@ -38,6 +40,7 @@ body{
     font-size: 20px;
     position: relative;
     top: 16px;
+    font-weight: bold;
 }
 .pantalla .middle .logo{
     position: relative;
@@ -78,6 +81,7 @@ body{
     font-size: 40px;
     position: relative;
     top: 25px;
+    font-weight: bold;
 }
 .pantalla .bottom .top img{
     width: 1792px;
@@ -199,3 +203,16 @@ body{
     width: 831px;
     height: 25px;
 }
+.pantalla .bottom .compatible .flechita1{
+    position: relative;
+    bottom: 2100px;
+    right: 603px;
+    height: 26.61px;
+    width: 18.9px;
+}
+.pantalla .bottom .compatible .flechita2{
+    position: relative;
+    bottom: 2100px;
+    left: 803px;
+    rotate: 180 deg;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
