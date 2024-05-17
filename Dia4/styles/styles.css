@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Mifuente";
+    src: url("font/Amazon_Typefaces_Complete_Font_Set_Mar2020/Ember/Amazon-Ember-Medium.ttf");
+}
+body{
+    font-family: "Mifuente";
+    background-color: black;
+}
+.pantalla{
+    margin: auto;
+    margin-top: 10px;
+    background-color: black;
+    height: 1080px;
+    width: 1920px;
+}
+.pantalla .background img{
+    width: 100%;
+}
+.pantalla .top .search{
+    position: relative;
+    bottom: 1046.5px;
+    height: 36px;
+    width: 36px;
+    left: 63.43px;
+}
+.pantalla .top .login{
+    background-color: white;
+    width: 205px;
+    height: 54px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom: 1110px;
+    left: 1695px;
+    border-radius: 30px;
+}
+.pantalla .top .login p{
+    font-size: 20px;
+    position: relative;
+    top: 16px;
+}
+.pantalla .middle .logo{
+    position: relative;
+    right: -682px;
+    bottom: 978px;
+    width: 556px;
+    height: 313px;
+}
+.pantalla .middle .text{
+    position: relative;
+    bottom: 1055px;
+    color: white;
+    text-align: center;
+}
+.pantalla .middle .text h1{
+    font-size: 60px;
+}
+.pantalla .middle .text p{
+    position: relative;
+    left: 380px;
+    font-size: 30px;
+    width: 1160px;
+    height: 102px;
+}
+.pantalla .middle .sign-up{
+    background-color: white;
+    border-radius: 50px;
+    width: 458px;
+    height: 104px;
+    text-align: center;
+    position: relative;
+    left: 730px;
+    bottom: 1043px;
+    
+}
+.pantalla .middle .sign-up p{
+    color: black;
+    font-size: 40px;
+    position: relative;
+    top: 25px;
+}
+.pantalla .bottom .top img{
+    width: 1792px;
+    height: 567px;
+    position: relative;
+    left: 62.33px;
+    bottom: 801px;
+}
+.pantalla .bottom .middle img{
+    width: 1792px;
+    height: 724px;
+    position: relative;
+    left: 62.33px;
+    bottom: 761px;
+}
+.pantalla .bottom .middle h1{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    text-align: center;
+    bottom: 1484px;
+}
+.pantalla .bottom .middle .pelis{
+    position: relative;
+    left: 413px;
+    bottom: 868px;
+}
+.pantalla .bottom .middle .pelis img{
+    height: 309px;
+    width: 181px;
+}
+.pantalla .bottom .middle p{
+    font-size: 50px;
+    position: relative;
+    bottom: 1098px;
+    left: 235.33px;
+    height: 110px;
+    width: 1492px;
+    color: white;
+}
+.pantalla .bottom .bottom .Rec{
+    position: relative;
+    left: 62.33px;
+    bottom: 1374px;
+}
+.pantalla .bottom .bottom .cancel{
+    position: relative;
+    left: 873.33px;
+    bottom: 1755.33px;
+}
+.pantalla .bottom .bottom .text h1{
+    color: white;
+    font-size: 60px;
+    position: relative;
+    bottom: 2068px;
+    left: 620.66px;
+}
+.pantalla .bottom .bottom .text p{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    bottom: 1845px;
+    text-align: center;
+}
+.pantalla .bottom .compatible h1{
+    color: white;
+    font-size: 125px;
+    position: relative;
+    bottom: 1812px;
+    left: 416.33px;
+}
+.pantalla .bottom .compatible p{
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+    bottom: 1812px;
+}
+.pantalla .bottom .compatible .mac{
+    position: relative;
+    height: 534px;
+    width: 584px;
+    left: 683.33px;
+    bottom: 1800px;
+}
+.pantalla .bottom .compatible .iphone{
+    position: relative;
+    height: 256px;
+    width: 279px;
+    bottom: 1950px;
+    right: 200px;
+}
+.pantalla .bottom .compatible .pc{
+    position: relative;
+    width: 271px;
+    height: 238px;
+    left: 400px;
+    bottom: 1950px;
+}
+.pantalla .bottom .compatible .pow1{
+    height: 20px;
+    width: 92px;
+    position: relative;
+    bottom: 1700px;
+    right: 300px;
+}
+.pantalla .bottom .compatible .pow2{
+    width: 430px;
+    height: 195px;
+    position: relative;
+    bottom: 1550px;
+    right: 420px;
+
+}
+.pantalla .bottom .compatible .policy{
+    position: relative;
+    bottom: 1600px;
+    left: 550px;
+    width: 831px;
+    height: 25px;
+}
