@@ -1,0 +1,27 @@
+html{
+    height: 100%;
+}
+body{
+    background-image:url("../img/pexels-clive-kim-4150032@2x.png");
+    background-repeat: no-repeat;
+}
+.contenedor{
+    width: 1920px;
+    height: 1080px;
+    margin: auto;
+    background-color: white;
+}
+.superior{
+    display: flex;
+    background-color: #3669c9;
+    height: 174px;
+    width: 1920px;
+    position: relative;
+}
+.superior img,h3,button{
+    height: 70px;
+    position: relative;
+    top: 20px;
+    margin-left: 170px;
+    font-size: 40px;    
+}
