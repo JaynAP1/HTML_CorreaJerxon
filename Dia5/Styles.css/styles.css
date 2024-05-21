@@ -1,30 +1,277 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
+    background-color: #1e1d2b;
 }
 .Menu{
+    overflow: hidden;
     width: 1080px;
-    height: 1920px;
-    background-color: #2c2b47;
+    height: 2820px;
+    background-color: #1e1d2b;
     margin: auto;
 }
 .Menu .home{
     width: 1080px;
     height: 70px;
-    position: relative;
     left: -3px;
     position: relative;
     left: 50px;
-    top: 50px;
+    top: 30px;
     display: flex;
 }
 .Menu .home h1{
     color: #ff702a;
-    font-weight:500;
+    font-weight:800;
+    position: relative;
+    bottom: 10px;
+
 }
-.Menu .home p{
+.Menu .home a{
     color: white;
     margin-left: 40px;
     position: relative;
-    left: 400px;
+    left: 480px;
+    top: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Menu .full{
+    color: white;
+}
+.Menu .full h1{
+    color: #ff702a;
+    font-size: 70px;
+    position: relative;
+    top: 40px;
+    left: 120px;
+}
+.Menu .full p{
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    left: 120px;
+    bottom: 8px;
+    line-height: 30px;
+}
+.Menu .full button{
+    background-color: #ff702a;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 120px;
+    bottom: 280px;
+    border: none;
+}
+.Menu .full img{
+    position: relative;
+    height: 300px;
+    left: 550px;
+    bottom: 220px;
+}
+.Menu .about{
+    color: white;
+    position: relative;
+    left: 600px;
+}
+.about .bout{
+    color:#ff702a;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.about h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+.about p{
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+    position: relative;
+    bottom: 20px;
+}
+.about .im img{
+    height: 240px;
+    position: relative;
+    right: 400px;
+    bottom: 260px;
+}
+.about .im button{
+    background-color: #ff702a;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    bottom: 235px;
+    right: 270px;
+    border: none;
+}
+.bloque3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 120px;
+    left: 40px;
+}
+.bloque3 .food{
+    color:#ff702a ;
+    position: relative;
+    top: 30px;
+    left: -20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.producto{
+    display: flex;
+    margin-left: 150px;
+}
+.producto p{
+    color: black;
+    line-height: 10px;
+}
+.producto img{
+    height: 150px;
+    margin-left: 50px;
+}
+.producto1{
+    background-color: #ffefe8;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 40px;
+    border: 2px double black ;
+}
+.producto1 img{
+    position: relative;
+    right: 25px;
+    top: 20px;
+}
+.producto1 .P{
+    color: #ff702a;
+    position: relative;
+    bottom: 5px;
+}
+.producto2{
+    background-color: #ffefe8;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    right: 20px;
+    border: 2px double black ;
+}
+.producto2 .P{
+    color: #ff702a;
+    position: relative;
+    bottom: 5px;
+}
+.producto2 img{
+    position: relative;
+    right: 25px;
+    top: 20px;
+}
+.producto3{
+    background-color: #ffefe8;
+    height: 250px;
+    width: 250px;
+    border: 2px double black ;
+}
+.producto3 .P{
+    color: #ff702a;
+    position: relative;
+    bottom: 5px;
+}
+.producto3 img{
+    position: relative;
+    right: 25px;
+    top: 20px;
+}
+.bloque4{
+    text-align: center;
+    color: white
+}
+.bloque4 .Ser{
+    color: #ff702a;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bloque4 .OSD{
+    display: flex;
+    position: relative;
+    left: 100px;
+    color: #ff702a;
+}
+.bloque4 .OSD img{
+    height: 200px;
+}
+.bloque4 .OSD p{
+    font-weight: bold;
+    color: white;
+    width: 300px;
+}
+.bloque5 .cajita{
+    width: 900px;
+    height: 220px;
+    background-color: #ffefe8;
+    text-align: center;
+    margin-left: 90px;
+    border: 2px double black;
+    position: relative;
+    top: 100px;
+}
+.bloque5 .cajita button{
+    border: none;
+    background-color: #ff702a;
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bloque6{
+    position: relative;
+    top: 200px;
+    display: inline-flex;
+    color: white;
+}
+.bloque6 h1{
+    font-size: 20px;
+}
+.bloque6 p{
+    line-height: 11px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+.bloque6 .caja1{
+    display: block;
+    margin-left: 180px;
+    margin-right: 70px;
+}
+.bloque6 .caja1 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    line-height: 25px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+}
+.bloque6 .caja2{
+    margin-right: 70px;
+}
+.bloque6 .caja3{
+    margin-right: 70px;
+}
+.bloque6 .rayita{
+    color: #ff702a;
+    position: relative;
+    bottom: 35px;
+}
+.bloque6 i{
+    position: relative;
+    bottom: 45px;
 }
