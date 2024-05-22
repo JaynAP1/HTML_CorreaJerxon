@@ -1,22 +1,41 @@
-html{
-    height: 100%;
+@font-face {
+    font-family: myriam;
+    src: url("font/MYRIADPRO-REGULAR.OTF");
 }
 body{
     background-image:url("../img/pexels-clive-kim-4150032@2x.png");
     background-repeat: no-repeat;
+    font-family: "myriam";
 }
 .contenedor{
-    width: 1920px;
-    height: 1080px;
     margin: auto;
-    background-color: white;
+    width: 1920px;
+    height: 1730px;
+    overflow: hidden;
 }
 .superior{
     display: flex;
     background-color: #3669c9;
     height: 174px;
     width: 1920px;
+    position: fixed;
+    margin-top: -10px;
+    color: white;
+    z-index: 2;
+}
+.superior .principal{
     position: relative;
+    top: 50px;
+}
+.superior .botonsito{
+    top: 60px;
+    font-size: 21px;
+    width: 200px;
+    height: 56px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    color: black;
 }
 .superior img,h3,button{
     height: 70px;
@@ -24,4 +43,153 @@ body{
     top: 20px;
     margin-left: 170px;
     font-size: 40px;    
+}
+.Caja{
+    width: 1545px;
+    height: 1225px;
+    background-color: white;
+    border-radius: 100px;
+    margin: auto;
+    position: relative;
+    top: 177px;
+    right: 60px;
+}
+.Caja img{
+    position: relative;
+    left: 620px;
+    top: 51px;
+}
+.Caja .m{
+    left: 670px;
+    top: 27px;
+}
+.Caja p{
+    font-size: 30px;
+    position: relative;
+    top: 43px;
+    text-align: center;
+}
+.Caja label{
+    display: block;
+    margin-top: 20px;
+    font-size: 21px;
+}
+.Caja input{
+    width: 792px;
+    height: 63px;
+    font-size: 25px
+}
+.Caja label,input{
+    position: relative;
+    left: 397px;
+}
+.Caja .r{
+    position: absolute;
+    top: 541px;
+}
+.Caja .p{
+    font-size: 11px;
+    position: relative;
+    top: 145px;
+    left: 42px;
+}
+.Caja button{
+    background-color: #3669c9;
+    color: white;
+    border-radius: 20px;
+    height: 42px;
+    width: 165px;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    top: 150px;
+    left: 570px;
+}
+.caja1{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    top: -320px;
+}
+
+.caja2{
+    position: relative;
+    text-align: center;
+    top: -304px;
+    left: -250px;
+}
+.caja2 h1{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.caja2 p{
+    position: relative;
+    font-size: 17px;
+    top: -16px;
+}
+.caja2 a{
+    text-decoration: none;
+    color: white;
+    background-color: #3669c9;
+    border-radius: 20px;
+    height: 56px;
+    width: 220px;
+    padding: 15px 50px;
+}
+.caja3{
+    position: relative;
+    text-align: center;
+    top: -580px;
+    left: 250px;
+}
+.caja3 a{
+    text-decoration: none;
+    color: white;
+    background-color: #3669c9;
+    border-radius: 20px;
+    height: 56px;
+    width: 220px;
+    padding: 15px 50px;
+}
+.caja3 img .firma{
+    width: 103px;
+    height: 62px;
+}
+.caja3 h1{
+    font-size: 35px;
+    font-weight: lighter;
+}
+.caja3 p{
+    position: relative;
+    font-size: 17px;
+    top: -20px;
+}
+.inferior{
+    position: relative;
+    width: 1920px;
+    height: 385px;
+    background-color: #3669c9;
+    top: -375px;
+}
+.inferior{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+}
+.inferior .texto1{
+    position: relative;
+    right:500px;
+    bottom: 50px;
+    line-height: 30px;
+}
+.inferior .texto2{
+    position: relative;
+    left: 600px;
+    bottom: 240px;
+    line-height: 30px;
+}
+.gov{
+    text-align: center;
+    position: relative;
+    top: 80px;
 }

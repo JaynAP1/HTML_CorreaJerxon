@@ -1,0 +1,153 @@
+@font-face {
+    font-family: myriam;
+    src: url("font/MYRIADPRO-REGULAR.OTF");
+}
+body{
+    background-image:url("../img/pexels-clive-kim-4150032@2x.png");
+    background-repeat: no-repeat;
+    font-family: "myriam";
+}
+.contenedor{
+    margin: auto;
+    width: 1920px;
+    height: 1280px;
+    overflow: hidden;
+}
+.superior{
+    display: flex;
+    background-color: #3669c9;
+    height: 174px;
+    width: 1920px;
+    position: fixed;
+    margin-top: -10px;
+    color: white;
+    z-index: 2;
+}
+.superior .principal{
+    position: relative;
+    top: 50px;
+}
+.superior .botonsito{
+    top: 60px;
+    font-size: 21px;
+    width: 200px;
+    height: 56px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    color: black;
+}
+.superior img,h3,button{
+    height: 70px;
+    position: relative;
+    top: 20px;
+    margin-left: 170px;
+    font-size: 40px;    
+}
+.Caja{
+    width: 1545px;
+    height: 870px;
+    background-color: white;
+    border-radius: 100px;
+    margin: auto;
+    position: relative;
+    top: 177px;
+    right: 60px;
+}
+.dian{
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.dian .record{
+    font-size: 15px;
+}
+.dian ul{
+    position: relative;
+    top: 30px;
+    list-style-position: inside;
+    font-size: 15px;
+}
+.dian .di{
+    position: relative;
+    left: 30px;
+}
+.dian .es{
+    position: relative;
+    top: 60px;
+    right: 170px;
+    width: 70.8px;
+    height: 42.5px;
+}
+.dian p{
+    position: relative;
+    top: 40px;
+}
+.entradas{
+    position: relative;
+    top: 90px;
+    left: 397px;
+}
+.entradas label{
+    display: block;
+    font-size: 21px;
+    margin-top: 20px;
+}
+.entradas input{
+    height: 63px;
+    width: 792px;
+}
+.robot{
+    position: relative;
+    top: 110px;
+    text-align: center;
+    font-size: 11px ;
+}
+.robot p{
+    position: relative;
+    top: 10px;
+}
+.robot a{
+    background-color:#3669c9;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    width: 166px;
+    height: 32px;
+    position: absolute;
+    top: 190px;
+    left: 706px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.inferior{
+    position: relative;
+    width: 1920px;
+    height: 285px;
+    background-color: #3669c9;
+    top: 200px;
+}
+.inferior{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+}
+.inferior .texto1{
+    position: relative;
+    right:500px;
+    bottom: 50px;
+    line-height: 30px;
+}
+.inferior .texto2{
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+    line-height: 30px;
+}
+.gov{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}

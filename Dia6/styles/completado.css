@@ -1,0 +1,126 @@
+@font-face {
+    font-family: myriam;
+    src: url("font/MYRIADPRO-REGULAR.OTF");
+}
+body{
+    background-image:url("../img/pexels-clive-kim-4150032@2x.png");
+    background-repeat: no-repeat;
+    font-family: "myriam";
+}
+.contenedor{
+    margin: auto;
+    width: 1920px;
+    height: 1280px;
+    overflow: hidden;
+}
+.superior{
+    display: flex;
+    background-color: #3669c9;
+    height: 174px;
+    width: 1920px;
+    position: fixed;
+    margin-top: -10px;
+    color: white;
+    z-index: 2;
+}
+.superior .principal{
+    position: relative;
+    top: 50px;
+}
+.superior .botonsito{
+    top: 60px;
+    font-size: 21px;
+    width: 200px;
+    height: 56px;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    color: black;
+}
+.superior img,h3,button{
+    height: 70px;
+    position: relative;
+    top: 20px;
+    margin-left: 170px;
+    font-size: 40px;    
+}
+.Caja{
+    width: 1545px;
+    height: 870px;
+    background-color: white;
+    border-radius: 100px;
+    margin: auto;
+    position: relative;
+    top: 177px;
+    right: 60px;
+}
+.dian .dia{
+    position: relative;
+    left: 637px;
+    bottom: 131px;
+}
+.dian .chulo{
+    position: relative;
+    left: 357.52px;
+    top: 168px
+}
+.texto{
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    left: -70px;
+    top: 160px;
+}
+.texto p{
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+    font-size: 35px;
+}
+.texto img{
+    position: relative;
+    bottom: 40px;
+    left: 220px;
+    width: 264px;
+    height: 88px;
+}
+.texto a{
+    position: relative;
+    right: 40px;
+    text-decoration: none;
+    color: white;
+    background-color: #3669c9;
+    border-radius: 20px;
+    height: 79px;
+    width: 311px;
+    padding: 20px 50px;
+}
+.inferior{
+    position: relative;
+    width: 1920px;
+    height: 285px;
+    background-color: #3669c9;
+    top: 200px;
+}
+.inferior{
+    color: white;
+    text-align: center;
+    font-size: 21px;
+}
+.inferior .texto1{
+    position: relative;
+    right:500px;
+    bottom: 50px;
+    line-height: 30px;
+}
+.inferior .texto2{
+    position: relative;
+    left: 600px;
+    bottom: 250px;
+    line-height: 30px;
+}
+.gov{
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
