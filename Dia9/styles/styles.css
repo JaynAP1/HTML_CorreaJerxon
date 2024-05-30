@@ -4,7 +4,7 @@ body{
     animation-delay: 7s;
 }
 .Caja{
-    background-image: url("/images/Fondo.jpg");
+    background-image: url("/Dia9/images/Fondo.jpg");
     background-size: 100vw;
     width: 100vw;
     height: 50vw;
@@ -72,6 +72,7 @@ body{
 }
 .lluvia img{
     width: 50vw;
+    
 }
 .Caja .Sol{
     width: 20vw;
@@ -85,9 +86,9 @@ body{
 
 .arboles img{
     position: absolute;
-    margin-top: -40vw;
+    margin-top: -10vw;
     right: 20vw;
-    width: 10vh;
+    width: 30vh;
     height: auto;
     filter: sepia();
     animation-name: Arbol;
@@ -198,8 +199,10 @@ body{
     0%{
 
     }
+    50%{
+        margin-top: -40%;
+    }
     100%{
-        width: 30vw;
-        margin-top: -20vw;
+        margin-top: -40%;
     }
 }

@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../as"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Dia8"
+	}
+}
