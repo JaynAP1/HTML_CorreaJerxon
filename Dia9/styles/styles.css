@@ -95,6 +95,7 @@ body{
     animation-name: Arbol;
     animation-delay: 17s;
     animation-duration: 10s;
+    opacity: 0%;
 }
 @keyframes Numero3{
     0%{
@@ -202,6 +203,7 @@ body{
     }
     50%{
         margin-top: -40%;
+        opacity: 100%;
     }
     100%{
         margin-top: -40%;
