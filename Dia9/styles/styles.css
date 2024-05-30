@@ -4,7 +4,7 @@ body{
     animation-delay: 7s;
 }
 .Caja{
-    background-image: url("/Dia9/images/Fondo.jpg");
+    background-image: url("../images/Fondo.jpg");
     background-size: 100vw;
     width: 100vw;
     height: 50vw;
