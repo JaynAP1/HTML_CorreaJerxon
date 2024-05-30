@@ -97,6 +97,25 @@ body{
     animation-duration: 5s;
     opacity: 0%;
 }
+
+.Caja .Boton{
+    background-color: rgb(255, 255, 255);
+    width: 40vw;
+    height: auto;
+    padding: 1.5vw;
+    border-radius: 5vw;
+    position: relative;
+    top: -52%;
+    left: 35%;
+    text-decoration: none;
+    font-size: 3vw;
+    color: black;
+    opacity: 0%;
+    animation-name: boton;
+    animation-delay: 22s;
+    animation-duration: 10s;
+}
+
 @keyframes Numero3{
     0%{
         width: 300%;
@@ -202,10 +221,18 @@ body{
 
     }
     50%{
-        margin-top: -40%;
+        margin-top: -40vw;
         opacity: 100%;
     }
     100%{
-        margin-top: -40%;
+        margin-top: -40vw;
+    }
+}
+@keyframes boton{
+    20%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 100%;
     }
 }
