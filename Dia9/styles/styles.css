@@ -94,7 +94,7 @@ body{
     filter: sepia();
     animation-name: Arbol;
     animation-delay: 17s;
-    animation-duration: 10s;
+    animation-duration: 5s;
     opacity: 0%;
 }
 @keyframes Numero3{
