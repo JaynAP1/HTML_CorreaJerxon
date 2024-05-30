@@ -70,10 +70,11 @@ body{
     animation-delay: 7s;
     animation-duration: 10s;
 }
+
 .lluvia img{
     width: 50vw;
-    
 }
+
 .Caja .Sol{
     width: 20vw;
     position: relative;
