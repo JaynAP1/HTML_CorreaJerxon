@@ -1,0 +1,205 @@
+body{
+    animation-name: Fondo;
+    animation-duration: 10s;
+    animation-delay: 7s;
+}
+.Caja{
+    background-image: url("/images/Fondo.jpg");
+    background-size: 100vw;
+    width: 100vw;
+    height: 50vw;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 20vh;
+    text-align: center;
+    font-size: 5vw;
+    margin-top: -9;
+    color: white;
+    font-weight: bold;
+    animation-duration: 8s;
+    animation-name: back;
+    animation-delay: 8s;
+    overflow: hidden;
+}
+
+.Caja p{
+    z-index: 2;
+}
+
+.Caja .p3{
+    animation-name: Numero3;
+    animation-duration: 3s;
+    position: relative;
+    top: 20vh;
+    margin-left: 300%;
+}
+
+.Caja .p2{
+    animation-name: Numero2;
+    animation-duration: 3s;
+    animation-delay: 1.5s;
+    position: relative;
+    top: 7vh;
+    margin-left: 300%;
+}
+
+.Caja .p1{
+    animation-name: Numero1;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    position: relative;
+    bottom: 6vh;
+    margin-left: 300%;
+
+}
+.Caja .empezar{
+    animation-name: empezar;
+    animation-duration: 3s;
+    animation-delay: 4.5s;
+    position: relative;
+    bottom: 19vh;
+    margin-left: 300%;
+}
+
+.lluvia{
+    z-index: 2;
+    margin-top: -50vw;
+    position: relative;
+    right: 150%;
+    animation-name: lluvia;
+    animation-delay: 7s;
+    animation-duration: 10s;
+}
+.lluvia img{
+    width: 50vw;
+}
+.Caja .Sol{
+    width: 20vw;
+    position: relative;
+    top: -57.7vw;
+    right: 30vw;
+    animation-name: Sol;
+    animation-delay: 7s;
+    animation-duration: 10s;
+}
+
+.arboles img{
+    position: absolute;
+    margin-top: -40vw;
+    right: 20vw;
+    width: 10vh;
+    height: auto;
+    filter: sepia();
+    animation-name: Arbol;
+    animation-delay: 17s;
+    animation-duration: 10s;
+}
+@keyframes Numero3{
+    0%{
+        width: 300%;
+    }
+    80%{
+        opacity: 100%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    100%{
+        opacity: 0%;
+        margin-left: -300%;
+    }
+    
+}
+@keyframes Numero2{
+    0%{
+        width: 300%;
+    }
+    80%{
+        opacity: 100%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    100%{
+        opacity: 0%;
+        margin-left: -300%;
+    }
+    
+}
+@keyframes Numero1{
+    0%{
+        width: 300%;
+    }
+    80%{
+        opacity: 100%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    100%{
+        opacity: 0%;
+        margin-left: -300%;
+    }
+    
+}
+@keyframes empezar{
+    0%{
+        width: 300%;
+    }
+    80%{
+        opacity: 100%;
+        margin-left: 0%;
+        width: 100%;
+    }
+    100%{
+        opacity: 0%;
+        margin-right: 100% ;
+        margin-left: -300%;
+    }
+}
+@keyframes lluvia{
+    50%{
+        width: 40vw;
+        margin-left: 150%;
+    }
+    100%{
+        width: 40vw;
+        margin-left: 250%;
+    }
+}
+@keyframes Sol{
+    0%{
+        opacity: 80%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    90%{
+        opacity: 90%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes Fondo {
+    0%{
+        
+    }
+    50%{
+        background-color: rgb(6, 6, 44);
+    }
+}
+@keyframes back {
+    20%{
+        opacity: 80%;
+    }
+    50%{
+        opacity: 50%;
+    }
+}
+@keyframes Arbol {
+    0%{
+
+    }
+    100%{
+        width: 30vw;
+        margin-top: -20vw;
+    }
+}
