@@ -1,0 +1,64 @@
+body{
+    background-color: #f9e4c9;
+    text-align: center;
+}
+.Contenedor{
+    display: flex;
+    justify-content: center;
+    animation-name: CajaF;
+    animation-duration: 10s;
+
+}
+.robot{
+    width: 4em;
+    height: 2em;
+    display: inline-block;
+    position: relative;
+    top: -1.7em;
+}
+.robot img{
+    padding: 0.5em;
+    background-color: white;
+    border-radius: 50%;
+}
+.CajaT{
+    margin-top: -2em;
+}
+.Caja{
+    position: relative;
+    top: 3em;
+    width: 25em;
+    height: 14em;
+    background-color: white;
+}
+.Caja h2{
+    color: #f091a0;
+}
+.Caja p{
+    color: gray;
+}
+.Caja a{
+    position: relative;
+    top: 1em;
+    text-decoration: none;
+    color: white;
+    background-color: #009ab1;
+    padding: 0.5em 1em;
+}
+.Caja a:hover{
+    background-color: #f34e60;
+}
+@keyframes CajaF{
+    0%{
+        margin-top: 20%;
+    }
+    10%{
+        margin-top: -2%;
+    }
+    15%{
+        margin-top: 10%;
+    }
+    20%{
+        margin-top: 0%;
+    }
+}
