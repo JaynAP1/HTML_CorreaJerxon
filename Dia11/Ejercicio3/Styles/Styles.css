@@ -1,5 +1,15 @@
+body{
+    overflow: hidden;
+}
 .Contenedor{
-    margin-left: 30vw;
+    margin-left: 100vw;
+    animation:  Caminar 10s infinite;
+    animation-timing-function: linear;
+}
+@keyframes Caminar{
+    100%{
+        margin-left: -20vw;
+    }
 }
 .Contenedor .Uno{
     position: absolute;
