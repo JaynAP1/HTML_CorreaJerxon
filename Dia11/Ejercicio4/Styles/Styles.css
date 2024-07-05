@@ -2,6 +2,36 @@ body{
     background-color: #f9e4c9;
     text-align: center;
 }
+ul{
+    display: none;
+  }
+input:checked  ~ ul{
+    display:flex;
+    position: relative;
+    justify-content: center;
+  }
+input {
+    display: none;
+   }
+label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: no
+}
+a{
+    display: block;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
 .Contenedor{
     display: flex;
     justify-content: center;
@@ -20,9 +50,13 @@ body{
     padding: 0.5em;
     background-color: white;
     border-radius: 50%;
+    box-shadow:  1px 1px 10px  black;
 }
 .CajaT{
     margin-top: -2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .Caja{
     position: relative;
@@ -44,6 +78,9 @@ body{
     color: white;
     background-color: #009ab1;
     padding: 0.5em 1em;
+    width: 15em;
+    top: -0.2em;
+    left: 3.6em;
 }
 .Caja a:hover{
     background-color: #f34e60;

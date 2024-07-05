@@ -1,6 +1,35 @@
 body{
     overflow: hidden;
 }
+ul{
+    display: none;
+  }
+input:checked  ~ ul{
+    display:flex;
+    position: relative;
+  }
+input {
+    display: none;
+   }
+label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: no
+}
+a{
+    display: block;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: black
+  }
 .Contenedor{
     margin-left: 100vw;
     animation:  Caminar 10s infinite;

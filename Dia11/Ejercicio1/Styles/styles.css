@@ -1,10 +1,40 @@
 body{
     color: white;
-    font-size: 5em;
     font-family: 'Alfa Slab One', cursive;
     background:#2c333a;
 }
+ul{
+    display: none;
+  }
+input:checked  ~ ul{
+    display:flex;
+    position: relative;
+}
+input {
+    display: none;
+   }
+label {
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+    user-select: no
+}
+a{
+    
+    display: block;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
 .Contenedor{
+    font-size: 5em;
     display: flex;
     justify-content: center;
 }
@@ -66,7 +96,7 @@ body{
 
 
 @keyframes U{
-    0%{
+    20%{
         transform:  rotateX(85deg);
 
     }
@@ -77,12 +107,12 @@ body{
         transform:  rotateX(180deg);
     }
     100%{
-        transform: rotateX(-180deg);
+        transform: rotateX(180deg);
     }
 }
 @keyframes P{
     20%{
-        transform:  rotateX(-85deg);
+        transform:  rotateX(85deg);
 
     }
     50%{
