@@ -15,7 +15,7 @@ body{
     position: absolute;
     animation-name: Primer;
     animation-duration: 1s;
-    animation-delay: 0.1;
+    animation-delay: 0;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -23,7 +23,7 @@ body{
     position: absolute;
     animation-name: Dos;
     animation-duration: 1s;
-    animation-delay:  0.2s;
+    animation-delay:  0.1s;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -31,7 +31,7 @@ body{
     position: absolute;
     animation-name: Tres;
     animation-duration: 1s;
-    animation-delay:  0.3s;
+    animation-delay:  0.2s;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -40,7 +40,7 @@ body{
     position: absolute;
     animation-name: Cuatro;
     animation-duration: 1s;
-    animation-delay:  0.4s;
+    animation-delay:  0.3s;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -49,7 +49,7 @@ body{
     position: absolute;
     animation-name: Cinco;
     animation-duration: 1s;
-    animation-delay:  0.5s;
+    animation-delay:  0.4s;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -58,7 +58,7 @@ body{
     position: absolute;
     animation-name: Seis;
     animation-duration: 1s;
-    animation-delay:  0.6s;
+    animation-delay:  0.5s;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -67,7 +67,7 @@ body{
     position: absolute;
     animation-name: Siete;
     animation-duration: 1s;
-    animation-delay:  0.7s;
+    animation-delay:  0.6s;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -76,7 +76,7 @@ body{
     position: absolute;
     animation-name: Ocho;
     animation-duration: 1s;
-    animation-delay:  0.8s;
+    animation-delay:  0.7s;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -85,7 +85,7 @@ body{
     position: absolute;
     animation-name: Nueve;
     animation-duration: 1s;
-    animation-delay:  0.9s;
+    animation-delay:  0.8s;
     opacity: 0;
     animation-iteration-count: infinite;
 }
@@ -94,7 +94,7 @@ body{
     position: absolute;
     animation-name: Diez;
     animation-duration: 1s;
-    animation-delay:  1s;
+    animation-delay:  0.9s;
     opacity: 0;
     animation-iteration-count: infinite;
 }
