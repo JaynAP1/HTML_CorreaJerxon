@@ -4,7 +4,7 @@
 .Contenedor .Uno{
     position: absolute;
     animation-name: Primer;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay: 0.1;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -12,7 +12,7 @@
 .Contenedor .Dos{
     position: absolute;
     animation-name: Dos;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay:  0.2s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -20,7 +20,7 @@
 .Contenedor .Tres{
     position: absolute;
     animation-name: Tres;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay:  0.3s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -29,7 +29,7 @@
     position: absolute;
     position: absolute;
     animation-name: Cuatro;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay:  0.4s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -38,7 +38,7 @@
     position: absolute;
     position: absolute;
     animation-name: Cinco;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay:  0.5s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -47,7 +47,7 @@
     position: absolute;
     position: absolute;
     animation-name: Seis;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay:  0.6s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -56,7 +56,7 @@
     position: absolute;
     position: absolute;
     animation-name: Siete;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay:  0.7s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -65,7 +65,7 @@
     position: absolute;
     position: absolute;
     animation-name: Ocho;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay:  0.8s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -74,7 +74,7 @@
     position: absolute;
     position: absolute;
     animation-name: Nueve;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay:  0.9s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -83,7 +83,7 @@
     position: absolute;
     position: absolute;
     animation-name: Diez;
-    animation-duration: 10s;
+    animation-duration: 1s;
     animation-delay:  1s;
     opacity: 0;
     animation-iteration-count: infinite;
@@ -92,52 +92,112 @@
     0%{
         opacity: 1;
     }
+    14%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
+    }
 }
 @keyframes Dos{
     0%{
         opacity: 1;
+    }
+    14%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes Tres{
     0%{
         opacity: 1;
     }
+
+    14%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
+    }
 }
 @keyframes Cuatro{
     0%{
         opacity: 1;
+    }
+
+    14%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes Cinco{
     0%{
         opacity: 1;
     }
+    14%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
+    }
 }
 @keyframes Seis{
     0%{
         opacity: 1;
+    }
+    14%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes Siete{
     0%{
         opacity: 1;
     }
+    14%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
+    }
 }
 @keyframes Ocho{
     0%{
         opacity: 1;
+    }
+    14%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
     }
 }
 @keyframes Nueve{
     0%{
         opacity: 1;
     }
+    14%{
+        opacity: 1;
+    }
+    15%{
+        opacity: 0;
+    }
 }
 @keyframes Diez{
     0%{
         opacity: 1;
     }
-    100%{
+    14%{
         opacity: 1;
     }
+    15%{
+        opacity: 0;
+    }
+    
 }
