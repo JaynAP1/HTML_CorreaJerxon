@@ -1,0 +1,88 @@
+.Container{
+    width: 30em;
+    margin: 0 auto;
+    margin-top: 10em;
+}
+.Caja{
+    width: 30em;
+    height: 30em;
+    border-radius: 2em;
+    box-shadow: 1px 1px 40px black;
+    background-color: #eeeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.CajaF{
+    position: relative;
+    width: 30em;
+    height: 4em;
+    box-shadow: 1px 1px 40px black;
+    border-radius: 0em 0em 2em 2em;
+    z-index: -1;
+    top: -2em;
+    background-color: #d6d5d5;
+}
+.Circulo{
+    width: 24em;
+    height: 24em;
+    border-radius: 50%;
+    background: linear-gradient(#44b2f7,#2971e7) ;
+}
+.Flecha1{
+    border-bottom: 8em solid red;
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent; 
+    width: 0em;
+    height: 0em;
+}
+.Flecha2{
+    border-bottom: 8em solid rgb(255, 255, 255);
+    border-left: 1em solid transparent;
+    border-right: 1em solid transparent; 
+    width: 0em;
+    height: 0em;
+}
+.CjaF{
+    width: 0em;
+    height: 20em;
+    position: absolute;
+    left: 18em;
+    bottom: 10em;
+    
+}
+.CjaF:hover{
+    animation: Rotacion 2s infinite;
+}
+.Circulo span{
+    height: 24px;
+    width: 2px;
+    position: absolute;
+    right: 18.3em;
+    top: 13.7em;
+    background-color: white;
+    display: flex;
+    transform: rotate(calc(10deg*var(--i)));
+    transform-origin: 0px 180px;
+    justify-content: center;
+    align-items: center;
+}
+.Circulo span::before{
+    height: 12px;
+    width: 2px;
+    background-color: white;
+    content: "";
+    transform: rotate(5deg);
+    transform-origin: 0px 180px;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes Rotacion {
+    50%{
+        rotate: 90deg;
+    }
+    100%{
+        rotate: -270deg;
+    }
+}
