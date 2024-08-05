@@ -14,4 +14,18 @@ In this repository practicing my habilities in HTML5 and CSS day after day.
 - [Day 10](https://github.com/JaynAP1/HTML_CorreaJerxon/tree/main/Dia10)
 - [Day 11](https://github.com/JaynAP1/HTML_CorreaJerxon/tree/main/Dia11)
 - [Day 12](https://github.com/JaynAP1/HTML_CorreaJerxon/tree/main/Dia12)
-- [Day 13](https://github.com/JaynAP1/HTML_CorreaJerxon/tree/main/Dia113)
+- [Day 13](https://github.com/JaynAP1/HTML_CorreaJerxon/tree/main/Dia13)
+
+## Use
+For use this repository and our content the first step is install Visual Studio Code for the correct funcionality of the web pages which the VSC installed now install the extension called live server.
+
+## About the repository
+Day after day we aplly new knowledges in the web pages such as responsive, relatives sizes, Menusbar and animations
+
+## Languages used
+- HTML5
+- CSS
+- Git
+## Developed by
+This repository developed by Jerxon Correa Campusland student
+
